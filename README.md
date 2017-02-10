@@ -33,8 +33,8 @@ acme-site
     python setup.py install
 
 
-    next [install redis](http://redis.io/topics/quickstart) for handling websockets
-    once redis is setup, run redis-server
+next [install redis](http://redis.io/topics/quickstart) for handling websockets
+once redis is setup, run redis-server
 
 
 **local settings**
