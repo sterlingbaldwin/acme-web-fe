@@ -2,8 +2,8 @@
 
 1. [Run Manager](#run-manager)
 2. [Data Manager](#data-manager)
-3. [Notification Manager](#Notification-Manager)
-4. [Visualization Manager](#Visualization-Manager)
+3. [Notification Manager](#notification-manager)
+4. [Visualization Manager](#visualization-manager)
 
 ## Run Manager<a name="run-manager"/></a>
 
