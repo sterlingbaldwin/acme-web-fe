@@ -1,11 +1,11 @@
 # Major components
 
 1. [Run Manager](#run-manager)
-2. [Data Manager](#Data-Manager)
+2. [Data Manager](#data-manager)
 3. [Notification Manager](#Notification-Manager)
 4. [Visualization Manager](#Visualization-Manager)
 
-## Run Manager<a name="Run-Manager"/></a>
+## Run Manager<a name="run-manager"/></a>
 
 ### Sub components
 
@@ -46,9 +46,9 @@ A list of all the run configurations the user has created in the past. This will
 3. Each run template will consist of the name of the run, and a button to open it in the run editor.
 4. Each run template will have a list of previous runs of this type.
 
-<a name="Data-Manager"/>
-## Data Manager
-</a>
+
+## Data Manager<a name="data-manager"/></a>
+
 ### Sub components
 
 #### User data 
@@ -76,22 +76,21 @@ Each of the four types of data will have a display. This will consist of:
 
 Users will have the ability to import data from a variety of sources. The import view will give them the option to select one of the following:
 
-1. Import from [ESGF](#Esgf-import)
-2. Upload from users [machine](#Data-upload)
-3. Download from [remote source](#Remote-download)
+1. Import from [ESGF](#esgf-import)
+2. Upload from users [machine](#data-upload)
+3. Download from [remote source](#remote-download)
 
-<a name="Esgf-import"/>
-#### Esgf import
-</a>
+#### Esgf import<a name="esgf-import"/></a>
+
 The user can import datasets directly from esgf.
 
 1. The user can select a set of nodes to search. They will be prometed for their credentials and authenticated via the first node in the list.
 2. The user can then select a set of search parameters for those nodes. This will consist of a list of facets and all the available options for that facet.
 3. Once they have searched the node, they will be given a list of all the data that matches their query. This will show them all the metadata about the dataset, and an option to import the data into their personal store on the workbench server. This will start a esgf download, which will appear on the main data manager view. Once the download has started, it will display a button to move them back to the data manager root view, or continue browsing.
 
-<a name="Data-upload"/>
-#### Data upload
-</a>
+
+#### Data upload<a name="data-upload"/></a>
+
 The user will have the ability to upload their own data to the server for analysis. This view will consist of:
 
 1. A prompt to select the type of data their uploading (model, obs, diag, post-processing).
@@ -99,9 +98,8 @@ The user will have the ability to upload their own data to the server for analys
 3. Once they've selected the path, they can hit the "upload" button to start the transfer, or a "cancel" button to clear all the fields.
 4. When the transfer has started, the user will be given a prompt to take them back to the data manager root, or create a new data upload.
 
-<a name="Remote-download"/>
-#### Remote download
-</a>
+#### Remote download<a name="remote-download"/></a>
+
 The user will be able to select a remote server to retieve data from. This will only support http file transfers for public data from remote servers. This view will consist of:
 
 1. A prompt to select the type of data.
@@ -110,9 +108,9 @@ The user will be able to select a remote server to retieve data from. This will 
 4. Once they have entered all the required information, a button to start the transfer, or clear the fields.
 5. Once the transfer has started, a prompt to take them back to the data manager root or continue adding remote download jobs.
 
-<a name="Notification-Manager"/>
-## Notification Manager
-</a>
+
+## Notification Manager<a name="notification-manager"/></a>
+
 ### Sub componenets
 
 #### Notification list
@@ -131,9 +129,9 @@ This is the actual notification card for each event. Each job will create its ow
 3. A list of sub-events, the job was added to the queue, the job was started, the job finished.
 4. If the job is complete, a button to open the job output.
 
-<a name="Visualization-Manager"/>
-## Visualization Manager
-</a>
+
+## Visualization Manager<a name="visualization-manager"/></a>
+
 ### Sub components
 
 #### Data select
