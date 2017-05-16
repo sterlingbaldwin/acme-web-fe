@@ -5,9 +5,8 @@
 3. [Notification Manager](#Notification-Manager)
 4. [Visualization Manager](#Visualization-Manager)
 
-<a name="Run-Manager"/>
-## Run Manager
-</a>
+## Run Manager<a name="Run-Manager"/></a>
+
 ### Sub components
 
 #### run list
