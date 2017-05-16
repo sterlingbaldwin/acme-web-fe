@@ -1,6 +1,6 @@
 # Major components
 
-1. [Run Manager](#Run-Manager)
+1. [Run Manager](#run-manager)
 2. [Data Manager](#Data-Manager)
 3. [Notification Manager](#Notification-Manager)
 4. [Visualization Manager](#Visualization-Manager)
