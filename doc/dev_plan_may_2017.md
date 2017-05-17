@@ -46,7 +46,7 @@ An editor to create new runs. The editor will consist of:
 4. The option to save the run once the user is happy with it
 5. The option to start a run once its been saved
 
-Run editor [api calls](run_info_reqs.md)
+Run editor [api calls](run_editor_reqs.md)
 
 
 #### run queue
