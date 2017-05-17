@@ -29,16 +29,16 @@ cancel_run = (run_id) =>
 ### Websocket requests
 
 Job status updates. Any time the status of one of the jobs in the list changes, update its status for the user
-server -> client
 ```
+server -> client
 job_queue_update = (job_id, status) => 
     job = job_queue.find(job_id)
     job.status = status
 ```
 
 New job added to the queue. When another user adds a job to the queue, it should be updated for all the other users
-server -> client
 ```
+server -> client
 job_queue_push = (job) => 
     job_queue.prepend(job)
 ```

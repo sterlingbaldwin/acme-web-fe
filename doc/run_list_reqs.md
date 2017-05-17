@@ -27,16 +27,16 @@ get_user_runs = (user) =>
 
 ### Websocket requests
 
-server -> client
 New run item, adds the new item to the run_list
 ```
+server -> client
 new_run_item = (new_run_info) =>
     run_list.appen(new_run_info)
 ```
 
-server -> client
 Run status change, a run status has changed, which needs to be updated for the user
 ```
+server -> client
 run_status_change = (run, status) => 
     index = run_list.find(fun)
     run_list[index].status = status

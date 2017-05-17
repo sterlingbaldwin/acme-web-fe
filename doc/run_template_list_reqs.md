@@ -47,8 +47,8 @@ share_template_group = (template_id, group_id) =>
 ### Websocket requests
 
 A template has been share with me, add it to the top of the templates list
-server -> client
 ```
+server -> client
 update_template_list = (template) =>
     template_list.prepend(template)
 ```

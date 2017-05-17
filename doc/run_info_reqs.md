@@ -87,9 +87,9 @@ user_group_add = (user, group_id) =>
 
 ### Websocket requests
 
-server -> client
 Run status change, a run status has changed, which needs to be updated for the user
 ```
+server -> client
 run_status_change = (run, status) => 
     index = run_list.find(fun)
     run_list[index].status = status
