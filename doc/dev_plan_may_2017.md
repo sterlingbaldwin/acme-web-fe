@@ -18,11 +18,10 @@ A list of all the users previous runs. Each run is shown as a card with relavent
 3. Job types in the run, the status of each job.
 4. These cards can be clicked to open the run information view
 
-
+Run list [api calls](run_list_reqs.md)
 
 
 #### run info
-[api calls](run_list_reqs.md)
 
 * This is the expanded run view, with complete information about the run.
 
@@ -32,8 +31,9 @@ A list of all the users previous runs. Each run is shown as a card with relavent
 4. Console output for the run.
 5. Meta-data about the run, who started the run, which tempalate it came from, when it started/stopped, what the elapsed time was.
 6. Share button to give others users the ability to see the run information.
+7. The option to start/stop the run.
 
-
+Run info [api calls](run_info_reqs.md)
 
 
 
@@ -44,8 +44,10 @@ An editor to create new runs. The editor will consist of:
 1. A list of supported run types (amwg diagnostic, ncclimo, time series, acme diags, ect).
 2. For each run type, a sub component allowing for configuration of the run
 3. Each run consists of a list of jobs, a run isn't one instance of one job but can be a set of jobs that are executed in sequence.
+4. The option to save the run once the user is happy with it
+5. The option to start a run once its been saved
 
-
+Run editor [api calls](run_info_reqs.md)
 
 
 #### run queue
