@@ -57,20 +57,30 @@ A view of the global queue status. The run queue will show the user:
 2. Filter to show only my jobs
 3. Each run will only show the run name, run id, and run status.
 
+Run queue [api calls](run_queue_reqs.md)
 
 
-
-#### run templates
+#### run template list
 
 A list of all the run configurations the user has created in the past. This will allow them to create a run template that they can run multiple times with small changes. 
 
 1. List of saved run templates.
 2. A sharing option to give another user a copy of the template.
-3. Each run template will consist of the name of the run, and a button to open it in the run editor.
+3. Each run template will consist of the name of the run, and a button to open it in the template editor.
 4. Each run template will have a list of previous runs of this type.
 
+Run template list [api calls](run_template_list_reqs.md)
 
+#### run template editor
 
+A view for editing a run template. This is very similar to the run editor, except it doesnt save a specific run, but a template for the run
+
+1. A list of supported run types (amwg diagnostic, ncclimo, time series, acme diags, ect).
+2. For each run type, a sub component allowing for configuration of the run
+3. Each run consists of a list of jobs, a run isn't one instance of one job but can be a set of jobs that are executed in sequence.
+4. The option to save the template once the user is happy with it
+
+Template editor [api calls](run_template_editor_reqs.md)
 
 
 ## Data Manager<a name="data-manager"/></a>
