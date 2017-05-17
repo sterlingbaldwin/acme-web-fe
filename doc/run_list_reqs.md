@@ -8,7 +8,7 @@ A list of all the users previous runs. Each run is shown as a card with relavent
 4. These cards can be clicked to open the run information view
 
 ### API calls needed
-
+```
 get_user_runs = (user) => 
     returns a list of the users runs 
     [{
@@ -20,4 +20,4 @@ get_user_runs = (user) =>
         }],
         run_time: (Datetime),
     }]
-
+```
